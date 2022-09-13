@@ -1,0 +1,23 @@
+{
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "module": "NodeNext",
+    "moduleResolution": "node",
+    "lib": ["es5", "dom"],
+    "target": "ES2017",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "strict": true,
+    "sourceMap": false
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

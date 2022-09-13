@@ -1,0 +1,119 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.inner-container {
+  width: 1024px;
+  height: 768px;
+  padding: 10px;
+}
+
+.in-game-controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.in-game-controls > button[type=button] {
+  margin-right: 10px;
+}
+
+.me {
+  color: white;
+  font-size: 15px;
+}
+
+.menu {
+  padding: 10px 10px;
+  background: rgba(217, 188, 247, 0.45);
+  width: 250px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=text], select, .me {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type=button] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=button]:disabled {
+  background-color: gray;
+}
+
+button[type=button]:disabled:hover {
+  background-color: gray;
+}
+
+button[type=button]:hover {
+  background-color: #45a049;
+}
+
+.rooms {
+  margin-top: 10px;
+}
+
+.you_died {
+  color: #ff5e5e;
+  font-size: 170px;
+  margin-top: 400px;
+  margin-left: 40px;
+  background-color: gray;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  width: min-content;
+  white-space: nowrap;
+}
+
+.you_win {
+  color: #5efaff;
+  background-color: green;
+  font-size: 170px;
+  margin-top: 400px;
+  margin-left: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  width: min-content;
+  white-space: nowrap;
+}
+
+.room_wrapper {
+  color: white;
+  padding: 0 5px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(217, 188, 247, 0.45);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.room_info {
+  margin: 8px 0;
+  padding-left: 15px;
+}
